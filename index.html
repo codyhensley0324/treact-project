@@ -18,57 +18,74 @@
             />
             <h1 class="logo__title">Treact</h1>
           </div>
-          <ul class="nav__links">
-            <li><a href="#about" class="nav__link">About</a></li>
-            <li><a href="#blog" class="nav__link">Blog</a></li>
-            <li><a href="#pricing" class="nav__link">Pricing</a></li>
-            <li><a href="#contact-us" class="nav__link">Contact Us</a></li>
-            <div class="login">
-              <li><a href="#login" class="nav__link">Login</a></li>
-              <li>
-                <a href="#sign-up" class="nav__link sign--up__btn">Sign Up</a>
-              </li>
-            </div>
-          </ul>
+          <div class="nav__links--container">
+            <ul class="nav__links">
+              <li><a href="#" class="nav__link">About</a></li>
+              <li><a href="" class="nav__link">Blog</a></li>
+              <li><a href="" class="nav__link">Pricing</a></li>
+              <li><a href="" class="nav__link">Contact Us</a></li>
+              <div class="login__links">
+                <li><a href="" class="nav__link">Login</a></li>
+                <li><a href="" class="nav__link sign-up__btn">Sign Up</a></li>
+              </div>
+            </ul>
+          </div>
         </div>
       </nav>
 
       <header>
-        <div class="header__description--wrapper">
-          <div class="header__description">
-            <h1 class="header__title">
-              Beautiful React Templates <span class="purple">for you.</span>
-            </h1>
-            <p class="header__description--para">
-              Our templates are easy to setup, understand and customize. Fully
-              modular components with a variety of pages and components.
-            </p>
-            <div class="header__email">
-            <input
-              type="email" class="email__input"
-              placeholder="Your E-Mail Address"
-            />
-            <button class="header__btn">Get Started</button>
-            </div>
-            <p class="customer__list">OUR TRUSTED CUSTOMERS</p>
-            <figure class="header__img-1--wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="header__description">
+              <h1 class="header__title">
+                Beautiful React Templates <span class="purple">for you.</span>
+              </h1>
+              <p class="header__description--para">
+                Our templates are easy to setup, understand and customize. fully
+                modular components with a variety of pages and components.
+              </p>
+              <div class="header__email--wrapper">
+                <input
+                  type="email"
+                  class="header__description--email"
+                  placeholder="Your E-mail Address"
+                />
+                <button class="header__description--email-btn">
+                  Get Started
+                </button>
+              </div>
+              <p class="header__description--customers">
+                OUR TRUSTED CUSTOMERS
+              </p>
               <img
                 src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
                 alt=""
-                class="header__img-1"
+                class="header__description--customers-img"
               />
-            </figure>
-          </div>
-          </div>
-          <div class="header__img-2--wrapper">
-            <img
-              src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
-              alt=""
-              class="header__img-2"
-            />
+            </div>
+            <div class="header__img--container">
+              <img
+                src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+                alt=""
+                class="header__img"
+              />
+            </div>
           </div>
         </div>
       </header>
     </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="row__features">
+          <h2 class="features__header"><span class="purple">FEATURES</span></h2>
+          <h1 class="features__title">We have Amazing <span class="purple">Service.</span></h1>
+          <p class="features__description--para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </div>
+    </section>
+
   </body>
 </html>

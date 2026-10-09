@@ -85,6 +85,7 @@ header{
   display: flex;
   width: 100%;
   max-width: 1200px;
+  padding: 0 16px;
 }
 
 .header__description{
@@ -92,6 +93,7 @@ header{
   flex-direction: column;
   width: 40%;
   justify-content: center;
+  padding: 0 16px;
 }
 
 .header__title{
@@ -149,12 +151,16 @@ header{
 
 #features{
   margin: 48px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .row__features{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   max-width: 1200px;
 }
@@ -169,7 +175,40 @@ header{
   margin-bottom: 24px;
 }
 
-.features__description--para{
-  font-size: 16px;
+.features__para{
+  font-size: 12px;
   width: 40%;
+  text-align: center;
+}
+
+.feature__container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.feature{
+  width: calc(100% / 3);
+  padding: 32px;
+  display: flex;
+}
+
+.feature__img{
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.feature__title{
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.feature__description{
+  color: slategrey;
+}
+
+.feature__wrapper{
+  padding-left: 16px;
 }
